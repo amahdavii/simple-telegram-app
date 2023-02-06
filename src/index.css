@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url('./assets/images/chat-bg-pattern-dark.png');
+  background-size: cover, 100rem auto;
+  overflow: hidden;
+}
+
+.search-icon {
+  margin: 0 0.8rem;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0.5rem #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5rem;
+}
